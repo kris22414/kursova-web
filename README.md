@@ -56,7 +56,7 @@ $password = "1234";
    ```
 3. При първоначално стартиране базата данни се инициализира автоматично чрез скрипта в `db_init/`.
    ```bash
-   sudo docker exec -i kursova-db-1 mysql -u root -p1234 kursova_2 < kursova_2.sql
+   sudo docker exec -i kursova-db-1 mysql -u root -p1234 kursova < kursova_2.sql
    ```
 4. Достъпете приложението през браузъра си на адрес:
    ```text
