@@ -1,5 +1,4 @@
 <?php
-// src/index.php
 
 require 'db.php';
 
